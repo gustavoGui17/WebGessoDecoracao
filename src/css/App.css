@@ -1,0 +1,315 @@
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.banner {
+  height: 70vh;
+  background-image: url(img/FotoDeFundo.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a.active,
+a:hover {
+  background: #F7A607;
+  transition: .5s;
+}
+
+.nav {
+  max-width: 1280;
+  height: 70px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ nav {
+  height: 80px;
+  width: 100%;
+  position: relative;
+  top: 0; 
+  left: 30vh;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 17px;
+  padding: 30px 13px;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 15px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 100px;
+}
+
+/* Sobre Nos */
+
+.conteudo-sobre-nos{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteudo-titulo{
+  position: relative;
+  top: 25vh;
+  font-size: 45px;
+  right: 48vh;
+  padding-bottom: 30px;
+}
+
+.conteudo-titulo::after{
+  content: '';
+  position: absolute;
+  bottom: 110px;
+  display: block;
+  height: 10px;
+  width: 100%;
+  background-color: #F7A607;
+}
+
+.conteudo-paragrafo{
+  font-size: larger;
+  position: relative;
+  top: 29vh;
+  right: 30vh;
+}
+
+.conteudo-paragrafo::after{
+  content: '';
+  position: absolute;
+  display: block;
+  top: 200px;
+  height: 5px;
+  width: 100%;
+  background-color: #F7A607;
+}
+
+.foto-sobre-nos{
+  position: relative;
+  left: 52vh;
+  bottom: 20vh;
+}
+
+/* Conteudo de projetos */
+
+.conteudo-projeto{
+  position: relative;
+  bottom: 20vh;
+  background-color: #EDEDE6;
+}
+
+.titulo-projeto{
+  display: flex;
+  font-size: 45px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.titulo-projeto::after{
+  content: '';
+  position: absolute;
+  top: 30px;
+  display: block;
+  height: 5px;
+  width: 10%;
+  background-color: #F7A607;
+}
+
+
+.titulo-item01{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 70vh;
+  left: 110vh;
+}
+
+.titulo-item01::after{
+  content: '';
+  position: absolute;
+  top: 40px;
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #F7A607;
+}
+
+.paragrafo-item01{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 55vh;
+  left: 110vh;
+}
+
+.foto-parede-gesso{
+  position: relative;
+  left: 20vh;
+  top: 2vh;
+}
+
+.foto-teto3d{
+  position: relative;
+  left: 108vh;
+}
+
+.titulo-item02{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 25vh;
+  left: 20vh;
+}
+
+.titulo-item02::after{
+  content: '';
+  position: absolute;
+  top: 40px;
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #F7A607;
+}
+
+.paragrafo-item02{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 10vh;
+  left: 20vh;
+}
+
+/* Conteudo Sobre a empresa */
+
+.conteudo-empresa{
+  position: relative;
+  bottom: 10vh;
+}
+
+.titulo-empresa{
+  font-size: 45px;
+  position: absolute;
+  left: 40vh;
+}
+
+.titulo-empresa::after{
+  content: '';
+  position: absolute;
+  bottom: 80px;
+  display: block;
+  height: 7px;
+  width: 100%;
+  background-color: #F7A607;
+}
+
+
+.paragrafo-empresa{
+  position: absolute;
+  left: 80vh;
+}
+
+.foto-empresa{
+  position: relative;
+  left: 40vh;
+  padding-bottom: 100px;
+
+}
+
+/* Conteudo de contato */
+
+.container-contato{
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title{
+  margin-bottom: 14px;
+}
+
+.title::after{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #F7A607;
+}
+
+.form{
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.input{
+  margin-bottom: 14px;
+  height: 60px;
+  border-radius: 4px;
+  padding: 0 8px;
+}
+
+.textarea{
+  margin-bottom: 14px;
+  border-radius: 4px;
+  padding: 8px;
+  height: 100px;
+  resize: none;
+}
+
+.button{
+  height: 34px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+  background-color: #F7A607;
+  font-size: 18px;
+  transition: background-color, transform 0.8s;
+}
+
+.button:hover{
+  background-color: #f7a7077e;
+  transform: scale(1.01);
+}
+
