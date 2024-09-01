@@ -1,34 +1,31 @@
 import styled from 'styled-components'
 import logo from '../../img/FotoDeFundo.png'
 
+
+const StyleHeader = styled.header`
+    margin: auto;
+    height: 98px;
+    width: 208vh;
+    position: absolute;
+    background-color: #ffffffbe;
+
+`
+
 const StyleBanner = styled.section`
     background-image: url(${logo});
-    height: 72vh;
-    width: 100%;
-    background-position: center;
+    height: 70vh;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
 
 `
 
-const StyleHeader = styled.header`
-    max-width: 1280px;
-    margin: auto;
-
-`
-
-const StyleFlex = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-`
-
 const StyleNav = styled.nav`
-  height: 80px;
-  width: 80%;
-  position: absolute;
-  top: 0; 
-
+  a.active,
+  a:hover {
+  background: #F7A607;
+  transition: .5s;
+}
 
     ul {
       float: right;
@@ -55,7 +52,6 @@ const StyleNav = styled.nav`
     return (
         <StyleBanner>
           <StyleHeader>
-            <StyleFlex>
               <StyleNav>
                 <ul>
                   <li><a href="">home</a></li>
@@ -64,7 +60,6 @@ const StyleNav = styled.nav`
                   <li><a href="">Contato</a></li>
                 </ul>
               </StyleNav>
-            </StyleFlex>
           </StyleHeader>
         </StyleBanner>  
     )

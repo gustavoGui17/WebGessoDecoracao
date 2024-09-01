@@ -8,6 +8,7 @@ export default createGlobalStyle`
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    border: none;
     }
 
 `
