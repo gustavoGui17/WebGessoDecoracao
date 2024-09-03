@@ -1,14 +1,12 @@
 import { createGlobalStyle } from 'styled-components'
 
-export default createGlobalStyle`
-    * {
-    font-family: "Poppins", sans-serif;
-    padding: 0;
+const GlobalStyle = createGlobalStyle`
+  body {
     margin: 0;
-    text-decoration: none;
-    list-style: none;
+    padding: 0;
     box-sizing: border-box;
-    border: none;
-    }
+    font-family: 'Arial', sans-serif;
+  }
+`;
 
-`
+export default GlobalStyle;

@@ -4,8 +4,8 @@ import logo from '../../img/FotoDeFundo.png'
 
 const StyleHeader = styled.header`
     margin: auto;
-    height: 98px;
-    width: 208vh;
+    height: 100px;
+    width: 100%;
     position: absolute;
     background-color: #ffffffbe;
 
