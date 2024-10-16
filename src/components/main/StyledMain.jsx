@@ -17,12 +17,12 @@ const StyleFoto = styled.section`
   position: relative;
   height: 100vh;
   left: 95vh;
-  bottom: 50vh;
+  bottom: 27vh;
 `
 
 const StyleTitle = styled.h1`
   position: relative;
-  top: 25vh;
+  top: 10vh;
   font-size: 45px;
   right: 48vh;
   padding-bottom: 30px;
@@ -31,7 +31,7 @@ const StyleTitle = styled.h1`
 const StyleParagrafo = styled.p`
   font-size: larger;
   position: relative;
-  top: 29vh;
+  top: 10vh;
   right: 30vh;
 `
 

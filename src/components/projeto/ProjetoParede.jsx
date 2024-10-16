@@ -1,9 +1,19 @@
 import styled from "styled-components";
+import paredeGesso from '../../img/parede-gesso-3d.png'
+
+const StyleGesso = styled.section`
+  background-image: url(${paredeGesso});
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+  top: 65px;
+  left: 5%;
+`
 
 const StyleTraco = styled.div`
   content: '';
   position: absolute;
-  bottom: 115%;
+  bottom: 225vh;
   left: 45%;
   height: 10px;
   width: 10%;
@@ -12,13 +22,12 @@ const StyleTraco = styled.div`
 
 const StyleTitulo = styled.h1`
   position: relative;
-  bottom: 160px;
+  bottom: 7vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 45px;
-  padding-top: 5vh;
-  padding-bottom: 10vh;
+  padding-top: 10vh;
 `
 
 
@@ -27,7 +36,7 @@ const StyleTitulo01 = styled.h1`
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: 90vh;
+  bottom: 200vh;
   left: 95vh;
   font-size: 30px;
 `
@@ -35,8 +44,8 @@ const StyleTitulo01 = styled.h1`
 const StyleTraco2 = styled.div`
   content: '';
   position: absolute;
-  top: 10%;
-  left: 45%;
+  left: 47%;
+  bottom: 196vh;
   height: 5px;
   width: 40%;
   background-color: #F7A607;
@@ -45,11 +54,11 @@ const StyleTraco2 = styled.div`
 const StyleParagra01 = styled.p`
   display: flex;
   align-items: center;
-  font-size: 21px;
   justify-content: center;
   position: absolute;
-  bottom: 75vh;
+  top: 41vh;
   left: 95vh;
+  font-size: 21px;
 `
 
 export default function ProjetoParede (){
@@ -64,6 +73,7 @@ export default function ProjetoParede (){
                  <br /> utilizamos materiais de alta qualidade para transformar
                  <br /> paredes em verdadeiras obras de arte.
                 </StyleParagra01>
+                <StyleGesso/>
         </div>
     )
 }

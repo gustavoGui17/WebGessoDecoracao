@@ -4,7 +4,7 @@ const StyleTraco2 = styled.div`
   content: '';
   position: absolute;
   display: block;
-  top: 60%;
+  top: 50%;
   left: 15%;
   height: 5px;
   width: 40%;

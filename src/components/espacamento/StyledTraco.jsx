@@ -3,7 +3,7 @@ import styled from "styled-components";
 const StyleTraco = styled.div`
   content: '';
   position: relative;
-  top: 27vh;
+  top: 10vh;
   right: 48vh;
   height: 10px;
   width: 10%;
