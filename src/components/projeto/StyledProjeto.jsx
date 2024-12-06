@@ -4,7 +4,7 @@ import forroGesso from '../../img/forro-gesso.png'
 
 const StyleProjeto = styled.section`
 position: relative;
-bottom: 620px;
+bottom: 500px;
 background-color: #EDEDE6;
 height: 130vh;
 `
@@ -67,7 +67,7 @@ const StyleParagrafoParede3D = styled.p`
   font-size: 21px;
 `
 
-//PROJETO FIRRI DE GESSO//
+//PROJETO FORRO DE GESSO//
 
 const StyleFotoForroGesso = styled.section`
  background-image: url(${forroGesso});

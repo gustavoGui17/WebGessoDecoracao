@@ -6,7 +6,8 @@ const StyleHeader = styled.header`
     margin: auto;
     height: 100px;
     width: 100%;
-    position: absolute;
+    position: fixed;
+    z-index: 10;
     background-color: #ffffffbe;
 
 `
