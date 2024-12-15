@@ -37,7 +37,7 @@ const StyleParagrafo = styled.p`
 
 export default function StyledMain() {
     return (
-      <StyleMain>
+      <StyleMain id="Home">
           <StyleTraco/>
             <StyleTitle>Sobre nós</StyleTitle>
               <StyleParagrafo>Bem-vindo à M&D Gesso e Decorações, sua parceira dedicada a transformar

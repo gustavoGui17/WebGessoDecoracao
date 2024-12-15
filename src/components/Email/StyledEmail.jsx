@@ -95,7 +95,7 @@ export default function StyledEmail() {
     }
 
     return (
-        <StyledContainerContato>
+        <StyledContainerContato id="Contato">
             <StyledTitle>Contato</StyledTitle>
             <StyledParagrafo>Coloque abaixo as suas informações de contato!
                 Nossa equipe <br /> irá entrar em contato com você o mais breve possível.

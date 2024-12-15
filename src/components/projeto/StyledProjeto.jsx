@@ -111,7 +111,7 @@ const StyleParagrafoForroGesso = styled.p`
 
 export default function StyledProjeto (){
     return(
-        <StyleProjeto> 
+        <StyleProjeto id="Projetos"> 
             <StyleTraco/>
                 <StyleTituloProjeto>Projetos</StyleTituloProjeto>  
             <StyleTraco2/>

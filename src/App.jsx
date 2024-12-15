@@ -3,6 +3,7 @@ import StyledMain from "./components/main/StyledMain";
 import StyledProjeto from "./components/projeto/StyledProjeto";
 import StyledEmpresa from "./components/Empresa/StyledEmpresa";
 import StyledEmail from "./components/Email/StyledEmail";
+import StyledRodape from "./components/Rodape/StyledRodape";
 
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       <StyledProjeto/>
       <StyledEmpresa/>
       <StyledEmail/>
+      <StyledRodape/>
     </div>
   )
 }

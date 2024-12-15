@@ -43,13 +43,13 @@ const StyleFotoEmpresa = styled.section`
 
 export default function StyledEmpresa (){
     return(
-        <StyleEmpresa>
-        <StyleTraco/>
-        <StyledTituloEmpresa>A empresa</StyledTituloEmpresa>
-        <StyledParagrafoEmpresa>Somos uma empresa dedicada a fornecer serviços de alta qualidade no setor de gesso. Com <br />
-         uma equipe de mão de obra especializada, estamos preparados para realizar uma ampla gama <br />
-         de trabalhos em gesso, atendendo às necessidades exclusivas dos nossos clientes.</StyledParagrafoEmpresa>
-        <StyleFotoEmpresa/>
+        <StyleEmpresa id="Empresa">
+          <StyleTraco/>
+            <StyledTituloEmpresa>A empresa</StyledTituloEmpresa>
+              <StyledParagrafoEmpresa>Somos uma empresa dedicada a fornecer serviços de alta qualidade no setor de gesso. Com <br />
+               uma equipe de mão de obra especializada, estamos preparados para realizar uma ampla gama <br />
+               de trabalhos em gesso, atendendo às necessidades exclusivas dos nossos clientes.</StyledParagrafoEmpresa>
+              <StyleFotoEmpresa/>
         </StyleEmpresa>
     )
 }
