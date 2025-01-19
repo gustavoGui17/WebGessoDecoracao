@@ -5,7 +5,6 @@ import StyleTraco2 from '../espacamento/StyledTraco2'
 
 const StyleMain = styled.main`
   position: relative;
-  padding-bottom: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
