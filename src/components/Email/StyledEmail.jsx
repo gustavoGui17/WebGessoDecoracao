@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styled from "styled-components";
 import emailjs from '@emailjs/browser';
 
 const StyledContainerContato = styled.div`
-    position: relative;
-    bottom: 45vh;
+    padding: 40px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +12,8 @@ const StyledContainerContato = styled.div`
 
 const StyledTitle = styled.h1`
     margin-bottom: 14px;
+    text-align: center;
+
     &::after {
         content: '';
         display: block;
@@ -24,7 +25,12 @@ const StyledTitle = styled.h1`
 
 const StyledParagrafo = styled.p`
   font-size: 18px;
-`
+  text-align: center;
+
+  @media (max-width: 500px) {
+    font-size: 16px;
+  }
+`;
 
 const StyledForm = styled.form`
     max-width: 600px;
@@ -36,21 +42,31 @@ const StyledForm = styled.form`
 
 const StyledInput = styled.input`
     margin-bottom: 14px;
-    height: 60px;
+    height: 50px;
     border-radius: 4px;
-    padding: 0 8px;
+    padding: 0 12px;
+    font-size: 16px;
+
+    @media (max-width: 500px) {
+      height: 45px;
+    }
 `;
 
 const StyledTextArea = styled.textarea`
     margin-bottom: 14px;
     border-radius: 4px;
-    padding: 8px;
+    padding: 12px;
     height: 100px;
     resize: none;
+    font-size: 16px;
+
+    @media (max-width: 500px) {
+      height: 80px;
+    }
 `;
 
 const StyledButton = styled.button`
-    height: 34px;
+    height: 40px;
     border-radius: 4px;
     cursor: pointer;
     border: 0;
@@ -61,6 +77,11 @@ const StyledButton = styled.button`
     &:hover {
         background-color: #f7a7077e;
         transform: scale(1.01);
+    }
+
+    @media (max-width: 500px) {
+      height: 36px;
+      font-size: 16px;
     }
 `;
 
