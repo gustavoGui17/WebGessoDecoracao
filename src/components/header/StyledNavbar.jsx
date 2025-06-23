@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styled from 'styled-components'
-import { Link } from 'react-scroll';
 import logo from '../../img/FotoDeFundo.png'
+
 
 const StyleHeader = styled.header`
   width: 100%;
@@ -95,14 +95,13 @@ export default function StyledNavbar() {
         </Hamburger>
         <StyleNav open={menuOpen}>
           <ul>
-            <li><Link to="Home" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>Home</Link></li>
-            <li><Link to="Empresa" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>Empresa</Link></li>
-            <li><Link to="Projetos" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>Projetos</Link></li>
-            <li><Link to="Contato" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>Contato</Link></li>
+          <a href="#Home">Home</a><br />
+          <a href="#Projetos">Projetos</a><br />
+          <a href="#Empresa">Empresa</a><br />
+          <a href="#Contato">Contato</a>
           </ul>
         </StyleNav>
       </StyleHeader>
-
       <StyleBanner />
     </>
   );
